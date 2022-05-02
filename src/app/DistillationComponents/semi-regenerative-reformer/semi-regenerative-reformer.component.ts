@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router, ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
   selector: 'app-semi-regenerative-reformer',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SemiRegenerativeReformerComponent implements OnInit {
 
-  constructor() { }
+  message: String = '';
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.route.queryParams.subscribe(params => {
+      this.message = params['message'] || '';
+    })
   }
-
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router, ActivatedRoute, ParamMap} from '@angular/router';
+
 
 @Component({
   selector: 'app-crude-oil-distillation-unit',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrudeOilDistillationUnitComponent implements OnInit {
 
-  constructor() { }
+  message: String = '';
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.route.queryParams.subscribe(params => {
+      this.message = params['message'] || '';
+    })
   }
-
 }
