@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ShellAndTubeComponent } from './shell-and-tube.component';
+import { ShellAndTubeComponent } from './oil-refinery.component';
 
 describe('ShellAndTubeComponent', () => {
   let component: ShellAndTubeComponent;

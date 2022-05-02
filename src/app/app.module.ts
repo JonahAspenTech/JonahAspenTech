@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ShellAndTubeComponent } from './OilRefinery/shell-and-tube.component';
+import { ShellAndTubeComponent } from './OilRefinery/oil-refinery.component';
 import { CrudeOilDistillationUnitComponent } from './DistillationComponents/crude-oil-distillation-unit/crude-oil-distillation-unit.component';
 import { VacuumDistillationUnitComponent } from './DistillationComponents/vacuum-distillation-unit/vacuum-distillation-unit.component';
 import { DieselHydroTreatingUnitComponent } from './DistillationComponents/diesel-hydro-treating-unit/diesel-hydro-treating-unit.component';

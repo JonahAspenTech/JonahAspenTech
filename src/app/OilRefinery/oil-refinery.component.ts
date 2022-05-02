@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {Router, ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
-  selector: 'app-shell-and-tube',
-  templateUrl: './shell-and-tube.component.html',
-  styleUrls: ['./shell-and-tube.component.css']
+  selector: 'app-OilRefinery',
+  templateUrl: './oil-refinery.component.html',
+  styleUrls: ['./oil-refinery.component.css']
 })
 export class ShellAndTubeComponent implements OnInit {
 
