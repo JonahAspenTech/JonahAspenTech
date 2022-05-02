@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from '../dashboard/dashboard.component'
-import { ShellAndTubeComponent } from '../shell-and-tube/shell-and-tube.component';
+import { ShellAndTubeComponent } from '../OilRefinery/shell-and-tube.component';
 import { CrudeOilDistillationUnitComponent } from '../DistillationComponents/crude-oil-distillation-unit/crude-oil-distillation-unit.component';
 import { VacuumDistillationUnitComponent } from '../DistillationComponents/vacuum-distillation-unit/vacuum-distillation-unit.component';
 import { DieselHydroTreatingUnitComponent } from '../DistillationComponents/diesel-hydro-treating-unit/diesel-hydro-treating-unit.component';
