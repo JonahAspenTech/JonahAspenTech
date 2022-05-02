@@ -17,7 +17,7 @@ const routes: Routes = [
    component: DashboardComponent,
 },
 {
-   path: 'crudeoilrefinery',
+   path: 'crude-oil-refinery',
    component: ShellAndTubeComponent,
       children:[
          {

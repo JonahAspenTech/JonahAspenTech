@@ -14,6 +14,6 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
   goToShellAndTube(message: String){
-    this.router.navigate(['/shellandtube'], {queryParams:{message: message}});
+    this.router.navigate(['/oil-refinery']);
   }
 }
