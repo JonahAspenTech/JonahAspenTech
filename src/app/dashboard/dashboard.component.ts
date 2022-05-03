@@ -13,7 +13,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  goToShellAndTube(message: String){
+  goToOilRefinery(message: String){
     this.router.navigate(['/crude-oil-refinery']);
   }
 }
