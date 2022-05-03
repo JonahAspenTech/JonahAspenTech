@@ -1,3 +1,10 @@
 <h1>Oil Refinery</h1>
 
-<router-outlet></router-outlet>
+<router-outlet>
+    <button (click)="goToCrudeOilDistillation('Crude Oil Distillation')">Crude Oil Distillation</button>
+    <button (click)="goToDieselHydroTreating('Diesel Hydro Treating')">Diesel Hydro Treating</button>
+    <button (click)="goToFluidCatalyticCracking('Fluid Catalytic Cracking')">Fluid Catalytic Cracking</button>
+    <button (click)="goToIsomerization('Isomerization')">Isomerization</button>
+    <button (click)="goToSulferRecovery('Sulfer Recovery')">Sulfer Recovery</button>
+    <button (click)="goToVacuumDisillation('Vacuum Distillation')">Vacuum Distillation</button>
+</router-outlet>
