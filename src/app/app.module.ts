@@ -12,6 +12,9 @@ import { SemiRegenerativeReformerComponent } from './DistillationComponents/semi
 import { FluidCatalyticCrackingUnitComponent } from './DistillationComponents/fluid-catalytic-cracking-unit/fluid-catalytic-cracking-unit.component';
 import { SulferRecoveryUnitComponent } from './DistillationComponents/sulfer-recovery-unit/sulfer-recovery-unit.component';
 import { IsomerizationUnitComponent } from './DistillationComponents/isomerization-unit/isomerization-unit.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { IsomerizationUnitComponent } from './DistillationComponents/isomerizati
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

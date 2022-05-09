@@ -1,5 +1,10 @@
-<h1>Oil Refinery</h1>
-
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Oil Refinery</span>
+        
+        <button mat-raised-button color="primary">Accent</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
 <router-outlet>
     <div class="btn-container">
         <button (click)="goToCrudeOilDistillation('Crude Oil Distillation')">Crude Oil Distillation</button>
